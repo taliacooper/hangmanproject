@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body id>
+<h1>Hangman</h1>
+<h2>pick a catagory:</h2>
+<select id="catagory">
+    <option value="0">~select a category~</option>
+    <option value="1">animals</option>
+    <option value="2">cities</option>
+    <option value="3">objects</option>
+</select>
+
+<button id="myButton" onclick="go()">Start Game!</button>
+
+<h2>enter a letter:</h2>
+<input type="text" id="myField" size="2.5">
+<button id="checkLetter" onclick="enterButton()">Try letter</button>
+<div id="print"></div>
+<div id="lives"></div>
+<div id="tried"></div>
+<div id="message"></div>
+<img src="" id="image">
+
+</body>
+</html>

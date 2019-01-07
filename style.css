@@ -1,0 +1,37 @@
+body{
+    text-align:center;
+    background-color:darkgray;
+}
+#myButton{
+    font-size: 20px;
+    background-color: orchid;
+    padding: 10px 10px;
+    text-align: center;
+    align:center;
+    border-radius: 9px;
+    font-family: "Times New Roman";
+    margin:auto;
+    display:inline-block;
+}
+#checkLetter{
+    font-size: 15px;
+    background-color: lightseagreen;
+    padding: 8px 8px;
+    text-align: center;
+    align:center;
+    border-radius: 7px;
+    font-family: "Times New Roman";
+    margin:auto;
+    display:inline-block;
+}
+#print,#lives{
+    font-size:50px;
+}
+#myField {
+    background-color: lightpink;
+}
+#tried{
+    color:darkolivegreen;
+    font-size:30px;
+
+}
